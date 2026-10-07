@@ -1,7 +1,7 @@
-0.6.10 (unreleased)
+0.6.10 (2026-10-07)
 -------------------
 
-- Nothing changed yet.
+- Look up Label and LabelPlus core components by their lowercase names.
 
 
 0.6.9 (2026-09-02)

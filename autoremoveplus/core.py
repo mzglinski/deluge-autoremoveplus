@@ -390,9 +390,9 @@ class Core(CorePluginBase):
 
         try:
             if self.config['labelplus']:
-                lbl = component.get("CorePlugin.LabelPlus").get_torrent_label_name(id)
+                lbl = component.get("CorePlugin.labelplus").get_torrent_label_name(id)
             else:
-                lbl = component.get("CorePlugin.Label")._status_get_label(id)
+                lbl = component.get("CorePlugin.label")._status_get_label(id)
         except Exception as e:
             log.warning("get_labels(): problem obtaining torrent {} labels: {}".format(id, e))
             lbl = ''
